@@ -1,0 +1,77 @@
+body {
+  margin: 30px;
+  padding: 30px 30px 200px 30px;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  background-repeat: no-repeat;
+}
+button {
+  padding: 20px 30px;
+  margin: 30px;
+  background: #d39ac2;
+  color: #fff;
+  font-size: 20pt;
+  border-style: none;
+  border-radius: 30px;
+  box-shadow: 3px 3px gray;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  background: #fbf3d6;
+  color: #d39ac2;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  line-height: 1.25;
+}
+ul {
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  font-size: 20pt;
+  line-height: 2;
+}
+form {
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 10px;
+  font-size: 15pt;
+}
+p {
+  padding-top: 0;
+  font-size: 300px;
+  text-align: center;
+}
+
+.emoji {
+  font-size: 30pt;
+  padding: 10px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#leftColumn {
+  padding: 25px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 5px 5px gray;
+  text-align: center;
+}
+
+#middleColumn {
+  padding: 50px;
+  border-radius: 30px;
+}
+#rightColumn {
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 5px gray;
+}

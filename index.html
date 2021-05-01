@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="src/scripts.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/styles.css" />    
+<title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4" id="leftColumn">
+          <form id=city-search>
+            <input type="text" placeholder="Enter a City" id="city-name"/>
+            <input type="submit" value="Search" />
+            </form>
+           </br>
+           <div class="buttons">
+            <button id="current">Current City</button>
+            </br>
+            <button>New York City</button>
+            </br>
+            <button>Berlin</button>
+            </br>
+            <button>Bangkok</button>
+          </div>
+        </div>
+        <div class="col-4" id="middleColumn">
+          <p>🌦</p>
+          <h1>Washington D.C.</h1>
+          <h2 id="temp">12°C</h2>
+          <h2 id="date-and-time">date</h2>
+        </div>
+        <div class="col-4" id="rightColumn">
+          <h2>This Week's Forecast</h2>
+          <ul>
+            <li><span class="emoji">☀️</span>Monday</li>
+            <li><span class="emoji">☀️</span>Tuesday</li>
+            <li><span class="emoji">☀️</span>Wednesday</li>
+            <li><span class="emoji">☀️</span>Thursday</li>
+            <li><span class="emoji">☀️</span>Friday</li>
+            <li><span class="emoji">☀️</span>Saturday</li>
+            <li><span class="emoji">☀️</span>Sunday</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
